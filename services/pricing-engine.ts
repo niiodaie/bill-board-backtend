@@ -14,7 +14,7 @@ import {
   type TimeSlot,
   type AdFormat,
   type DemandLevel,
-} from "../../shared/constants/pricing";
+} from "../src/lib/shared";
 
 export interface PricingRequest {
   slotType: SlotType;

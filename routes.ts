@@ -7,7 +7,7 @@ import session from "express-session";
 import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
 import { storage } from "./storage";
-import { insertUserSchema, insertAdSchema, insertCampaignSchema } from "../shared/types/schema";
+import { insertUserSchema, insertAdSchema, insertCampaignSchema } from "./src/lib/shared";
 import { generateAdText, generateAdImage, enhanceAdPrompt } from "./services/openai";
 import multer from "multer";
 import path from "path";

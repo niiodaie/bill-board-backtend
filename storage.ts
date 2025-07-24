@@ -2,7 +2,7 @@ import {
   users, ads, campaigns, payments, deals,
   type User, type InsertUser, type Ad, type InsertAd,
   type Campaign, type InsertCampaign, type Payment, type Deal, type InsertDeal
-} from "../shared/types/schema";
+} from "./src/lib/shared";
 import { db } from "./db";
 import { eq, desc, and, sql } from "drizzle-orm";
 
